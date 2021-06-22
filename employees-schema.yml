@@ -1,0 +1,15 @@
+type: array
+items:
+  type: object
+  name: employee
+  properties:
+    id:
+      type: integer
+    first_name:
+      type: string
+    manager:
+      type:
+        - integer
+        - 'null'
+    salary:
+      type: integer
